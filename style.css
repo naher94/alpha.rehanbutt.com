@@ -1,0 +1,23 @@
+ body, section {
+  margin: 0;
+  border: 0;
+}
+section.module.parallax {
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax-1 {
+  background-image: url("coral.jpg");
+}
+
+.blank{ 
+  height:250px;
+  background-color:#666666;
+  margin:25px;
+}
